@@ -1,154 +1,164 @@
-                :root {
-                   font-family: Helvetica;
-                   font-size: 22px;
-                   color: seashell;
-                   background-color: black;
-                   opacity: 0.9;
-               }
-               /* photos */
-               
-               #photo {
-                   width: 300px;
-                   height: 200px;
-                   padding: 20px 10px;
-               }
-               /* header */
-               
-               header {
-                   display: flex;
-                   overflow: fixed;
-                   border-bottom: 1px solid seashell;
-                   height: 69px;
-               }
-               
-               nav {
-                   display: inline-flex;
-                   width: 100%;
-                   justify-content: flex-end;
-                   align-items: center;
-               }
-               
-               header span {
-                   padding: 20px;
-                   text-decoration: underline;
-               }
-               
-               #cozy-logo {
-                   height: 50px;
-                   padding-left: 10px;
-               }
-               /* First picture-content */
-               
-               .first-picture {
-                   background-image: url("img/img-mission-background.webp");
-                   height: 700px;
-                   width: 1200px;
-                   margin: auto;
-                   display: flex;
-                   align-items: center;
-               }
-               
-               .first-picture span {
-                   background-color: black;
-               }
-               
-               .first-picture h2 {
-                   text-align: center;
-               }
-               
-               .first-picture h4 {
-                   text-align: center;
-               }
-               
-               .first-picture .picture-definition {
-                   width: 100%;
-                   background-color: black;
-                   opacity: 0.9;
-               }
-               
-               .first-content .first-row {
-                   display: flex;
-                   justify-content: center;
-               }
-               
-               .first-content .second-row {
-                   display: flex;
-                   justify-content: center;
-               }
-               
-               .first-content .photos {
-                   text-align: center;
-               }
-               
-               .first-content h4 {
-                   margin: 0px;
-               }
-               
-               .first-content .content-title {
-                   text-align: center;
-                   margin-bottom: 32px;
-               }
-               
-               .content .info {
-                   background-image: url("C:/Users/augus/Desktop/Cozy%20tea/img/background.webp");
-                   background-size: 100% 100%;
-                   width: 1200px;
-                   height: 500px;
-                   margin: auto;
-               }
-               /* Second paragraph */
-               
-               .info .second-column {
-                   display: flex;
-                   flex-direction: column;
-                   width: 33%;
-                   text-align: center;
-                   margin: 20px;
-                   padding: 50px 0 50px 0;
-                   background-color: black;
-                   opacity: 1;
-               }
-               
-               .info h2 {
-                   text-align: center;
-                   padding-top: 32px;
-               }
-               
-               .info h3 {
-                   margin-top: 0px;
-               }
-               
-               .info .second-content {
-                   display: flex;
-               }
-               
-               .info span {
-                   padding: 10px 0 10px 0;
-               }
-               /* footer */
-               
-               .last h2 {
-                   text-align: center;
-                   margin-bottom: 1.5em;
-               }
-               
-               .last h5 {
-                   text-align: center;
-                   margin-bottom: 1.5em;
-               }
-               
-               .last footer {
-                   text-align: center;
-                   margin-bottom: 1.5em;
-               }
-               
-               footer span {
-                   text-align: left;
-                   margin-left: 20px;
-                   height: 48px;
-                   display: flex;
-                   align-items: center;
-                   padding-top: 10px;
-                   padding-left: 24px;
-                   margin: 0px;
-               }
+:root {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+/* photos */
+
+#photo {
+    width: 300px;
+    height: 200px;
+    padding: 20px 10px;
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    overflow: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+nav {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header span {
+    padding: 20px;
+    text-decoration: underline;
+}
+
+#cozy-logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+
+/* First picture-content */
+
+.first-picture {
+    background-image: url("img/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.first-picture span {
+    background-color: black;
+}
+
+.first-picture h2 {
+    text-align: center;
+}
+
+.first-picture h4 {
+    text-align: center;
+}
+
+.first-picture .picture-definition {
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.first-content .first-row {
+    display: flex;
+    justify-content: center;
+}
+
+.first-content .second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.first-content .photos {
+    text-align: center;
+}
+
+.first-content h4 {
+    margin: 0px;
+}
+
+.first-content .content-title {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.content .info {
+    background-image: url("C:/Users/augus/Desktop/Cozy%20tea/img/background.webp");
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+
+/* Second paragraph */
+
+.info .second-column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+    margin: 20px;
+    padding: 50px 0 50px 0;
+    background-color: black;
+    opacity: 1;
+}
+
+.info h2 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.info h3 {
+    margin-top: 0px;
+}
+
+.info .second-content {
+    display: flex;
+}
+
+.info span {
+    padding: 10px 0 10px 0;
+}
+
+
+/* footer */
+
+.last h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.last h5 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.last footer {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+footer span {
+    text-align: left;
+    margin-left: 20px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 24px;
+    margin: 0px;
+}
